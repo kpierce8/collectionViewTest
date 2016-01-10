@@ -13,6 +13,14 @@
 		E1EAB4921C41A47E00F80F5C /* collectionViewTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1EAB4901C41A47E00F80F5C /* collectionViewTest.xcdatamodeld */; };
 		E1EAB4941C41A47E00F80F5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1EAB4931C41A47E00F80F5C /* Assets.xcassets */; };
 		E1EAB4971C41A47E00F80F5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1EAB4951C41A47E00F80F5C /* LaunchScreen.storyboard */; };
+		E1EAB49F1C41A50B00F80F5C /* theLands.json in Resources */ = {isa = PBXBuildFile; fileRef = E1EAB49E1C41A50B00F80F5C /* theLands.json */; };
+		E1EAB4A11C41A52900F80F5C /* LTDILImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAB4A01C41A52900F80F5C /* LTDILImporter.swift */; };
+		E1EAB4A51C41AF1C00F80F5C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAB4A41C41AF1C00F80F5C /* CoreDataStack.swift */; };
+		E1EAB4A81C41B75100F80F5C /* TheLands+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAB4A61C41B75100F80F5C /* TheLands+CoreDataProperties.swift */; };
+		E1EAB4A91C41B75100F80F5C /* TheLands.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAB4A71C41B75100F80F5C /* TheLands.swift */; };
+		E1EAB4AC1C41B83600F80F5C /* TheParks+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAB4AA1C41B83600F80F5C /* TheParks+CoreDataProperties.swift */; };
+		E1EAB4AD1C41B83600F80F5C /* TheParks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EAB4AB1C41B83600F80F5C /* TheParks.swift */; };
+		E1EAB4B01C41BB4300F80F5C /* theParks.json in Resources */ = {isa = PBXBuildFile; fileRef = E1EAB4AF1C41BB4300F80F5C /* theParks.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		E1EAB4931C41A47E00F80F5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1EAB4961C41A47E00F80F5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1EAB4981C41A47E00F80F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1EAB49E1C41A50B00F80F5C /* theLands.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = theLands.json; path = collectionViewTest/theLands.json; sourceTree = "<group>"; };
+		E1EAB4A01C41A52900F80F5C /* LTDILImporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTDILImporter.swift; sourceTree = "<group>"; };
+		E1EAB4A41C41AF1C00F80F5C /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		E1EAB4A61C41B75100F80F5C /* TheLands+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TheLands+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E1EAB4A71C41B75100F80F5C /* TheLands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheLands.swift; sourceTree = "<group>"; };
+		E1EAB4AA1C41B83600F80F5C /* TheParks+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TheParks+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E1EAB4AB1C41B83600F80F5C /* TheParks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheParks.swift; sourceTree = "<group>"; };
+		E1EAB4AF1C41BB4300F80F5C /* theParks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = theParks.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +56,7 @@
 		E1EAB47D1C41A47E00F80F5C = {
 			isa = PBXGroup;
 			children = (
+				E1EAB4AE1C41BB0C00F80F5C /* JsonImport */,
 				E1EAB4881C41A47E00F80F5C /* collectionViewTest */,
 				E1EAB4871C41A47E00F80F5C /* Products */,
 			);
@@ -57,6 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				E1EAB4891C41A47E00F80F5C /* AppDelegate.swift */,
+				E1EAB4A01C41A52900F80F5C /* LTDILImporter.swift */,
+				E1EAB4A41C41AF1C00F80F5C /* CoreDataStack.swift */,
 				E1EAB48B1C41A47E00F80F5C /* ViewController.swift */,
 				E1EAB48D1C41A47E00F80F5C /* Main.storyboard */,
 				E1EAB4931C41A47E00F80F5C /* Assets.xcassets */,
@@ -65,6 +84,19 @@
 				E1EAB4901C41A47E00F80F5C /* collectionViewTest.xcdatamodeld */,
 			);
 			path = collectionViewTest;
+			sourceTree = "<group>";
+		};
+		E1EAB4AE1C41BB0C00F80F5C /* JsonImport */ = {
+			isa = PBXGroup;
+			children = (
+				E1EAB4AF1C41BB4300F80F5C /* theParks.json */,
+				E1EAB49E1C41A50B00F80F5C /* theLands.json */,
+				E1EAB4AA1C41B83600F80F5C /* TheParks+CoreDataProperties.swift */,
+				E1EAB4AB1C41B83600F80F5C /* TheParks.swift */,
+				E1EAB4A61C41B75100F80F5C /* TheLands+CoreDataProperties.swift */,
+				E1EAB4A71C41B75100F80F5C /* TheLands.swift */,
+			);
+			name = JsonImport;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +131,7 @@
 				TargetAttributes = {
 					E1EAB4851C41A47E00F80F5C = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 42F6Y56UC5;
 					};
 				};
 			};
@@ -125,8 +158,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1EAB49F1C41A50B00F80F5C /* theLands.json in Resources */,
 				E1EAB4971C41A47E00F80F5C /* LaunchScreen.storyboard in Resources */,
 				E1EAB4941C41A47E00F80F5C /* Assets.xcassets in Resources */,
+				E1EAB4B01C41BB4300F80F5C /* theParks.json in Resources */,
 				E1EAB48F1C41A47E00F80F5C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +173,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1EAB4A51C41AF1C00F80F5C /* CoreDataStack.swift in Sources */,
 				E1EAB4921C41A47E00F80F5C /* collectionViewTest.xcdatamodeld in Sources */,
+				E1EAB4A11C41A52900F80F5C /* LTDILImporter.swift in Sources */,
+				E1EAB4AC1C41B83600F80F5C /* TheParks+CoreDataProperties.swift in Sources */,
 				E1EAB48C1C41A47E00F80F5C /* ViewController.swift in Sources */,
+				E1EAB4AD1C41B83600F80F5C /* TheParks.swift in Sources */,
+				E1EAB4A81C41B75100F80F5C /* TheLands+CoreDataProperties.swift in Sources */,
+				E1EAB4A91C41B75100F80F5C /* TheLands.swift in Sources */,
 				E1EAB48A1C41A47E00F80F5C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,7 +243,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -241,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -253,10 +294,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = collectionViewTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.franticgoose.collectionViewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -264,10 +309,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = collectionViewTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.franticgoose.collectionViewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -290,6 +339,7 @@
 				E1EAB49D1C41A47E00F80F5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

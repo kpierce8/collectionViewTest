@@ -14,8 +14,8 @@ import CoreData
 
 extension TheParks {
 
-    @NSManaged var parkID2: NSNumber?
-    @NSManaged var pname: String?
+    @NSManaged var parkID: NSNumber?
+    @NSManaged var name: String?
     @NSManaged var nick: String?
     @NSManaged var scavengerID: NSNumber?
 
